@@ -1,43 +1,44 @@
 .glav {
    min-height: 300px;
-   &__block {
+   &__wrapper {
+      width: 100%;
+      margin: 0 auto;
       display: grid;
-      grid-template-columns: 615px 330px;
-      grid-template-rows: 60px 240px;
+      grid-template-columns: 620px 330px;
+      height: 297px;
+      justify-content: center;
+   }
+   &__mainImg {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+   }
+   &__block {
       background-color: #000;
       height: 297px;
-   }
-   &__text {
-      display: flex;
-      flex-direction: column;
-      align-items: center;
-      justify-content: center;
-      color: #fff;
-      // text-align: center;
-      grid-column-start: 1;
-      
    }
    &__links {
       margin-left: 10px;
       margin-top: 5px;
    }
    &__link {
-      margin-right: 5px;
+      margin-right: 10px;
    }
-   &__img {
-      grid-column-start: 2;
-      grid-column-end: 3;
-      grid-row-start: 1;
-      grid-row-end: 3;
-      border: none;
+   &__text {
+      display: flex;
+      flex-direction: column;
+      color: #fff;
+      align-items: center;
+      justify-content: center;
+      height: 76%;
    }
    &__title {
       font-size: 30px;
       margin-left: 65px;
    }
    &__subtitle {
-      margin-top: 33px;
-      font-size: 33px;
+      font-size: 32px;
+      margin-top: 20px;
       text-align: center;
    }
 }

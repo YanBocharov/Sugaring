@@ -1,0 +1,14 @@
+@media (max-width: 932px) {
+   .glav {
+      &__wrapper {
+         grid-template-columns: 550px 330px;
+      }
+   }
+}
+@media (max-width: 855px) {
+   .glav {
+      &__wrapper {
+         grid-template-columns: 470px 330px;
+      }
+   }
+}
