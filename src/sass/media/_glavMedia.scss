@@ -1,14 +1,130 @@
-@media (max-width: 932px) {
+@media (max-width:949px) {
    .glav {
       &__wrapper {
-         grid-template-columns: 550px 330px;
+         grid-template-columns: 420px 330px;
+      }
+      &__title {
+         font-size: 24px;
+         margin-left: 35px;
+      }
+      &__subtitle {
+         font-size: 27px;
       }
    }
 }
-@media (max-width: 855px) {
+@media (max-width:749px) {
    .glav {
       &__wrapper {
-         grid-template-columns: 470px 330px;
+         grid-template-columns: 350px 300px;
+      }
+      &__title {
+         font-size: 24px;
+         margin-left: 35px;
+      }
+      &__subtitle {
+         font-size: 27px;
+      }
+   }
+}
+@media (max-width:649px) {
+   .glav {
+      &__wrapper {
+         grid-template-columns: 250px 330px;
+      }
+      &__text {
+         margin-top: 0;
+      }
+      &__title {
+         font-size: 22px;
+         margin-left: 20px;
+      }
+      &__subtitle {
+         font-size: 20px;
+         margin: 30px 10px 0px 10px;
+      }
+      &__links {
+         display: flex;
+         margin-top: 10px;
+         justify-content: space-around;
+      }
+      &__link {
+         img {
+            width: 40px;
+         }
+      }
+   }
+}
+@media (max-width:579px) {
+   .glav {
+      &__wrapper {
+         grid-template-columns: 250px 280px;
+      }
+   }
+}
+@media (max-width:529px) {
+   .glav {
+      &__wrapper {
+         grid-template-columns: 240px 250px;
+      }
+   }
+}
+@media (max-width:489px) {
+   .glav {
+      &__wrapper {
+         grid-template-columns: 200px 250px;
+      }
+      &__title {
+         font-size: 18px;
+         margin-left: 15px;
+      }
+      &__subtitle {
+         font-size: 17px;
+         margin: 30px 10px 0px 10px;
+      }
+   }
+}
+@media (max-width:449px) {
+   .glav {
+      &__text {
+         justify-content: start;
+      }
+      &__wrapper {
+         grid-template-columns: 180px 230px;
+      }
+      &__title {
+         margin-top: 30px;
+         font-size: 17px;
+         margin-left: 10px;
+      }
+      &__subtitle {
+         font-size: 25px;
+         margin: 30px 5px 0px 7px;
+      }
+      &__link {
+         img {
+            width: 35px;
+         }
+      }
+   }
+}
+@media (max-width:405px) {
+   .glav {
+      &__wrapper {
+         grid-template-columns: 160px 220px;
+      }
+      &__link {
+         img {
+            width: 30px;
+         }
+      }
+      &__title {
+         margin-top: 30px;
+         font-size: 14px;
+         margin-left: 10px;
+      }
+      &__subtitle {
+         font-size: 25px;
+         margin: 30px 5px 0px 7px;
       }
    }
 }
