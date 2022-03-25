@@ -4,9 +4,9 @@
       width: 100%;
       margin: 0 auto;
       display: grid;
-      grid-template-columns: 620px 330px;
+      grid-template-columns: auto 330px;
       height: 297px;
-      justify-content: center;
+      justify-content: start;
    }
    &__mainImg {
       img {
@@ -20,8 +20,10 @@
       height: 297px;
    }
    &__links {
+      display: flex;
+      justify-content: space-around;
       margin-left: 10px;
-      margin-top: 5px;
+      margin-top: 15px;
    }
    &__link {
       margin-right: 10px;
@@ -31,16 +33,20 @@
       flex-direction: column;
       color: #fff;
       align-items: center;
-      justify-content: center;
-      height: 76%;
+      justify-content: start;
+      height: 73%;
    }
    &__title {
       font-size: 30px;
-      margin-left: 65px;
+      // margin-left: 65px;
+      width: 85%;
+      margin-top: 20px;
    }
    &__subtitle {
+      margin-top: 40px;
       font-size: 32px;
-      margin-top: 20px;
+      padding-bottom: 10px;
       text-align: center;
+      width: 85%;
    }
 }
