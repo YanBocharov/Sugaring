@@ -16,7 +16,7 @@
       }
    }
 }
-@media (max-width: 612px) {
+@media (max-width: 610px) {
    .glav {
       &__title {
          font-size: 22px;
@@ -24,10 +24,13 @@
       &__subtitle {
          font-size: 22px;
          margin-top: 20px;
+      }
+      &__wrapper {
+         grid-template-columns: auto 280px;
       }
    }
 }
-@media (max-width: 599px) {
+@media (max-width: 560px) {
    .glav {
       &__title {
          font-size: 22px;
@@ -35,6 +38,28 @@
       &__subtitle {
          font-size: 22px;
          margin-top: 20px;
+      }
+      &__wrapper {
+         grid-template-columns: auto 250px;
+      }
+   }
+}
+@media (max-width: 530px) {
+   .glav {
+      &__title {
+         font-size: 22px;
+      }
+      &__subtitle {
+         font-size: 22px;
+         margin-top: 20px;
+      }
+      &__wrapper {
+         grid-template-columns: auto;
+         grid-template-rows: repeat(2, auto);
+         grid-gap: 0;
+      }
+      &__mainImg {
+         grid-row: 1/2;
       }
    }
 }

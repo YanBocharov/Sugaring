@@ -8,6 +8,7 @@
 }
 
 .container {
+   position: relative;
    max-width: 950px;
    margin: 0 auto;
 }
@@ -15,5 +16,6 @@
 @import 'blocks/header';
 @import 'blocks/glav';
 @import 'blocks/job';
+@import 'blocks/slider';
 @import 'media/glavMedia';
 @import 'media/headerMedia';
