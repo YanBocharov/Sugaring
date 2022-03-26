@@ -9,7 +9,8 @@
 .slick-slider{
     position: relative;
     padding: 0 60px;
-    width: 530px;
+    padding-bottom: 10px;
+    max-width: 530px;
     margin: 0 auto;
     margin-top: 80px;
     margin-bottom: 0;
@@ -38,3 +39,31 @@
     right: 20px;
     background: url('../../img/icons/RightAngel.svg')0 0 /100% no-repeat;
 }
+
+.slick-dots {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    max-width: 350px;
+    margin: 0 auto;
+    margin-top: 30px;
+    padding-bottom: 30px;
+    li {
+        list-style-type: none;
+        margin: 0 20px;
+    }
+    li.slick-active {
+        button {
+            background-color: transparent;
+            border: 2px solid black;
+        }
+    }
+    button {
+        font-size: 0;
+        width: 20px;
+        height: 20px;
+        background-color: #000;
+        border-radius: 100%;
+    }
+}
+

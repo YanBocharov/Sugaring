@@ -1,6 +1,15 @@
 $ (function() {
     $('.job__slider').slick({
         arrows: true,
-        dots: false
+        dots: false,
+        responsive: [
+            {
+                breakpoint: 451,
+                settings: {
+                    arrows: false,
+                    dots: true
+                }
+            }
+        ]
     });
 });

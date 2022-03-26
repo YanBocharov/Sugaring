@@ -13,9 +13,21 @@
    margin: 0 auto;
 }
 
+.line {
+   margin-top: 55px;
+   width: 100%;
+   border: 2px solid #000;
+}
+
 @import 'blocks/header';
 @import 'blocks/glav';
 @import 'blocks/job';
 @import 'blocks/slider';
+@import 'blocks/price';
+@import 'blocks/title';
+
 @import 'media/glavMedia';
 @import 'media/headerMedia';
+@import 'media/sliderMedia';
+@import 'media/jobMedia';
+@import 'media/priceMedia';
