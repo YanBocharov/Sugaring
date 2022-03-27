@@ -1,0 +1,16 @@
+@media (max-width: 700px) {
+    .before {
+        &__bc {
+            display: none;
+        }
+        &__sc {
+            display: none;
+        }
+        &__title {
+            width: 280px;
+        }
+        &__slider {
+            margin-bottom: 50px;
+        }
+    }
+}

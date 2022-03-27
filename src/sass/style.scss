@@ -14,7 +14,7 @@
 }
 
 .line {
-   margin-top: 55px;
+   margin-top: 35px;
    width: 100%;
    border: 2px solid #000;
 }
@@ -25,9 +25,17 @@
 @import 'blocks/slider';
 @import 'blocks/price';
 @import 'blocks/title';
+@import 'blocks/sugar';
+@import 'blocks/before';
+@import 'blocks/certificate';
+@import 'blocks/gps';
 
 @import 'media/glavMedia';
 @import 'media/headerMedia';
 @import 'media/sliderMedia';
 @import 'media/jobMedia';
 @import 'media/priceMedia';
+@import 'media/sugarMedia';
+@import 'media/beforeMedia';
+@import 'media/certificateMedia';
+@import 'media/gpsMedia';

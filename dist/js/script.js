@@ -1,5 +1,5 @@
 $ (function() {
-    $('.job__slider').slick({
+    $('.slider').slick({
         arrows: true,
         dots: false,
         responsive: [
