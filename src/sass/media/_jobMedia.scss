@@ -8,3 +8,12 @@
         }
     }
 }
+@media (max-width: 600px) {
+    .job {
+        &__svidetelstvo {
+            img {
+                width: 100%;
+            }
+        }
+    }
+}

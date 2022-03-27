@@ -18,6 +18,13 @@
    width: 100%;
    border: 2px solid #000;
 }
+@media (max-width: 450px) {
+   .line {
+      &_mt130 {
+         margin-top: 130px;
+      }
+   }
+}
 
 @import 'blocks/header';
 @import 'blocks/glav';

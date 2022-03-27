@@ -70,4 +70,25 @@
         border-radius: 100%;
     }
 }
+.job {
+    &__slider {
+        max-width: 700px;
+        height: 80px;
+        div {
+            text-align: center;
+            margin-top: 5px;
+            font-size: 30px;
+            font-weight: bold;
+        }
+    }
+}
+.job .slick-slide {
+    height: 80px;
+}
+.job .slick-arrow {
+    top: 50%;
+    transform: translateY(100%);
+    width: 20px;
+    height: 20px;
+}
 
