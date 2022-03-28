@@ -3,6 +3,14 @@
     &__slider {
         margin-bottom: 100px;
     }
+    &__slide {
+        width: 550px;
+        height: 600px;
+        img {
+            padding-top: 50px;
+            width: 52%;
+        }
+    }
     &__block {
         position: relative;
     }
