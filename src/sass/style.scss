@@ -18,6 +18,22 @@
    width: 100%;
    border: 2px solid #000;
 }
+#lightboxOverlay {
+   width: 100%;
+}
+.lb-nav a.lb-next {
+   opacity: 1;
+}
+.lb-nav a.lb-prev {
+   opacity: 1;
+}
+.lb-nav {
+   top: 80%;
+   height: 20%;
+}
+.lb-prev, .lb-next {
+   height: 50px;
+}
 @media (max-width: 450px) {
    .line {
       &_mt130 {

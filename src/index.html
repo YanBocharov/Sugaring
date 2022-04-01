@@ -9,6 +9,7 @@
    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
    <link href="https://fonts.googleapis.com/css2?family=Balsamiq+Sans&family=Roboto+Mono:wght@400;500&display=swap" rel="stylesheet">
    <link rel="stylesheet" href="css/slick.css">
+   <link rel="stylesheet" href="dist/css/lightbox.css">
    <link rel="stylesheet" href="css/style.min.css">
 </head>
 <body>
@@ -18,7 +19,7 @@
             <ul class="header__list">
                <li class="header__item"><span>Бочарова Анастасия</span></li>
                <li id="second" class="header__item"><a href="tel:89207671627" class="header__link">8-920-767-16-27</a></li>
-               <li class="header__item"><img src="img/глобус 1.png" alt="глобус" class="header__img">местоположение</li>
+               <li class="header__item"><img src="img/глобус 1.png" alt="глобус" class="header__img">Тула,пр-т Ленина,102к4</li>
             </ul>
          </div>
       </div>
@@ -46,7 +47,7 @@
    <section class="job">
       <div class="container">
          <div class="job__svidetelstvo">
-            <img src="img/svidetelstvo.jpeg" alt="svidetelstvo">
+            <a href="img/svidetelstvo.jpeg" data-lightbox="test"><img src="img/svidetelstvo.jpeg" alt="svidetelstvo"></a>
          </div>
          <div class="job__text">
             Я - начинающий, сертифицированный мастер-универсал по депиляции и сахарному моделированию фигуры. Борюсь с нежелательными волосами прекрасных дам разными методами: шугаринг, ваксинг(горячий, теплый воск), полимер. Помогаю избавиться от целлюлита, лишних сантиметров и килограммов. <br>
@@ -152,10 +153,10 @@
          <div class="before__block">
             <div class="title before__title">До/после</div>
             <div class="slider before__slider">
-               <div class="before__slide"><img src="img/beforeAfter/1.jpeg" alt=""></div>
-               <div class="before__slide"><img src="img/beforeAfter/2.jpeg" alt=""></div>
-               <div class="before__slide"><img src="img/beforeAfter/3.jpeg" alt=""></div>
-               <div class="before__slide"><img src="img/beforeAfter/4.jpeg" alt=""></div>
+               <a href="img/beforeAfter/1.jpeg" data-lightbox="test" class="before__slide"><img src="img/beforeAfter/1.jpeg" alt=""></a>
+               <a href="img/beforeAfter/2.jpeg" data-lightbox="test" class="before__slide"><img src="img/beforeAfter/2.jpeg" alt=""></a>
+               <a href="img/beforeAfter/3.jpeg" data-lightbox="test" class="before__slide"><img src="img/beforeAfter/3.jpeg" alt=""></a>
+               <a href="img/beforeAfter/4.jpeg" data-lightbox="test" class="before__slide"><img src="img/beforeAfter/4.jpeg" alt=""></a>
             </div>
             <div class="line"></div>
          </div>
@@ -167,10 +168,10 @@
          <div class="title certificate__title">Сертификаты</div>
          <div class="before__block">
             <div class="slider certificate__slider">
-               <div class="before__slide"><img src="img/certificate/1cert.jpeg" alt=""></div>
-               <div class="before__slide"><img src="img/certificate/2cert.jpeg" alt=""></div>
-               <div class="before__slide"><img src="img/certificate/3cert.jpeg" alt=""></div>
-               <div class="before__slide"><img src="img/certificate/4cert.jpeg" alt=""></div>
+               <a href="img/certificate/1cert.jpeg" data-lightbox="test" class="before__slide"><img src="img/certificate/1cert.jpeg" alt=""></a>
+               <a href="img/certificate/2cert.jpeg" data-lightbox="test" class="before__slide"><img src="img/certificate/2cert.jpeg" alt=""></a>
+               <a href="img/certificate/3cert.jpeg" data-lightbox="test" class="before__slide"><img src="img/certificate/3cert.jpeg" alt=""></a>
+               <a href="img/certificate/4cert.jpeg" data-lightbox="test" class="before__slide"><img src="img/certificate/4cert.jpeg" alt=""></a>
             </div>
             <div class="line"></div>
          </div>
@@ -190,6 +191,7 @@
       </div>
    </section>
    <script src="js/jquery-3.6.0.min.js"></script>
+   <script src="dist/js/lightbox.js"></script>
    <script src="js/slick.min.js"></script>
    <script src="js/script.js"></script>
 </body>
